@@ -21,6 +21,11 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
   gitBranch: main
+- name: JMSTest
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqa_testgitall_3025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
@@ -87,10 +92,10 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2061
 configurationVariables:
-  ? artConnection.SIQA_TESTGITALL_3025Project.project.siqa_testgitall_3025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
-  : "1"
   ? artConnection.SIQA_TESTGITALL_3025Project.project.siqa_testgitall_3025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.SIQA_TESTGITALL_3025Project.project.siqa_testgitall_3025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
+  : "1"
   ? artConnection.SIQA_TESTGITALL_3025Project.project.siqa_testgitall_3025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
   : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
   jdbc.jdbcTestPool.waitingThread: "0"
