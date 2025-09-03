@@ -8,6 +8,10 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 services:
+- serviceName: project.siqa_testgitall_3025.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQA_TESTGITALL_3025Project
+    version: "1.0"
 - serviceName: project.siqa_testgitall_3025.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_TESTGITALL_3025Project
@@ -16,6 +20,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_testgitall_3025.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_TESTGITALL_3025Project
+    version: "1.0"
 - serviceName: project.siqa_testgitall_3025.integrations:deepclonetest
   packages:
   - name: SIQA_TESTGITALL_3025Project
