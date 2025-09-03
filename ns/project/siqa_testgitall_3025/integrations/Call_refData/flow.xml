@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="Reference Data" SERVICE="project.siqa_testgitall_3025.referencedata:refData">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>
